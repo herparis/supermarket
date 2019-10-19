@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { COLORS } from './constants'
+import { COLORS } from './src/constants'
 
 const AppWrapper = styled.div`
   width: 100%;
