@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react'
-import { render } from 'react-dom'
 
 import {
   Title, ProductsManager, AddModal,
-} from './components'
+} from './src/components'
 
-import { TITLE, APP } from './constants'
+import { TITLE } from './src/constants'
 
-import { fetchProducts } from './api/apiHelper'
+import { fetchProducts } from './src/api/apiHelper'
 
 import AppWrapper from './appWrapper'
 
@@ -48,4 +47,4 @@ const App = () => {
   )
 }
 
-render(<App /> , document.getElementById(APP))
+export default App
