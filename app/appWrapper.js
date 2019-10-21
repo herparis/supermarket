@@ -10,6 +10,7 @@ const AppWrapper = styled.div`
   position: absolute;
   left: 0;
   top: 0;
+  overflow: overlay;
 `
 
 export default AppWrapper
