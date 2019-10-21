@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const AddModalContainer = styled.div`
   background-color: rgba(0, 0, 0, .78);
   position: fixed;
+  display: flex;
   top: 0;
   bottom: 0;
   right: 0;
